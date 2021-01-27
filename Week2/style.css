@@ -1,0 +1,41 @@
+table{
+    border-style:solid;
+}
+th, td{
+    border-style:solid;
+    text-align:center;
+}
+.outer-content{
+    position: relative;
+    align-content: center;
+    top:20px;
+    width:75%;
+    background-color:pink;
+}
+.inner-content{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width:75%;
+    background-color:lightskyblue;
+}
+
+#first-column{
+    font-weight: normal;
+    font-style: italic;
+}
+
+tr:nth-of-type(even)  {
+    background-color: chartreuse;
+}
+tr:nth-of-type(odd)  {
+    background-color:crimson;
+}
+
+tr:first-child{
+    background-color: white;
+}
+
+tr:last-child{
+    background-color: white;
+}
